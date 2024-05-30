@@ -5,11 +5,11 @@
 class Okgit < Formula
   desc ""
   homepage "https://github.com/rajnandan1/okgit"
-  version "1.0.17"
+  version "1.0.18"
 
   on_macos do
-    url "https://github.com/rajnandan1/okgit/releases/download/v1.0.17/okgit_1.0.17_darwin_all.tar.gz"
-    sha256 "f296b533fef629a4f9bab9b4c18d644b868b21e5a127cba71fe753c2ad14aa6a"
+    url "https://github.com/rajnandan1/okgit/releases/download/v1.0.18/okgit_1.0.18_darwin_all.tar.gz"
+    sha256 "48dea5a2447e3ff68d663dec04df48d290f374d04749f119906c0afc07c1838a"
 
     def install
       bin.install "okgit"
@@ -19,8 +19,8 @@ class Okgit < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/rajnandan1/okgit/releases/download/v1.0.17/okgit_1.0.17_linux_amd64.tar.gz"
-        sha256 "000df3a0654c97a77320750eab7430a98f5483b80636868c10f9365eaccde02a"
+        url "https://github.com/rajnandan1/okgit/releases/download/v1.0.18/okgit_1.0.18_linux_amd64.tar.gz"
+        sha256 "c36b501158cf6d9b56410859acaa9b2341753325ddb7b12e6e73bf16d5ba0e3a"
 
         def install
           bin.install "okgit"
@@ -29,8 +29,8 @@ class Okgit < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/rajnandan1/okgit/releases/download/v1.0.17/okgit_1.0.17_linux_arm64.tar.gz"
-        sha256 "1eade472332dc814ea869970ab98b1bbd85d11e2e8958a98d5fb3038e9673273"
+        url "https://github.com/rajnandan1/okgit/releases/download/v1.0.18/okgit_1.0.18_linux_arm64.tar.gz"
+        sha256 "931778172cd83759d5e247c66acbbd43a92016cf20f9b558289a43a09104d8fb"
 
         def install
           bin.install "okgit"
